@@ -1,0 +1,16 @@
+img {
+    height: 500px;
+    width: 500px;
+}
+.list {
+    color: navy;
+}
+h1 {
+    font-size: 60px; font-weight: bold; font-family: Helvetica;
+}
+h4 {
+    font-size: 30px; font-weight: bold; font-family: Helvetica;
+}
+h3 {
+    font-size: 30px; font-weight: bold; font-family: Helvetica;
+}
