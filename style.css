@@ -22,17 +22,17 @@ h4 {
 h3 {
     font-size: 30px; font-weight: bold; font-family: Helvetica;
 }
-button {
-    background: black;
-    padding: 4px;
-    font-size: 20px;
-    font-display: none;
-    
+footer {
+    background: lightblue;
+    text-align: center;
+    padding: 5px;
 }
 a {
-    color: white;
+    color: navy;
+    font-size: 20px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 a:hover {
-    color: #F4EDED;
+    color: black;
 }
