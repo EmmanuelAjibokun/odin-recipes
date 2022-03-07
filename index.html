@@ -4,29 +4,28 @@
         <title>Recipes</title>
         <meta charset="UTF-8">
         <style>
-            .body {
-                background-color: #F0F465;
-                padding: 0px;
-                margin: 0px;
+            html {
+                box-sizing: border-box;
             }
-            .surface {
-                background: white;
-                height: 800px;
-                width: 1000px;
-                
-                margin-left: 175px;
-                margin-top: 0px;
-                margin-bottom: 0px;
-                margin-right: 175px;
+            .body {
+                background-color: #36827F;
+                padding: 50px 100px;
+                margin: 0px;
+                text-align: center;
 
-                bo
+            }
+            .body div {
+                background: white;
+                height: auto;
+                width: 1000px;
+                margin: 10px auto;
+                
             }
             h1 {
                 color: rgb(0, 0, 0); 
                 font-size: 100px; 
                 font-family: Helvetica; 
                 font-weight: bolder;
-                margin: 10px 100px 50px 100px;
             }
             .content {
                 background: rgb(223, 245, 255);
@@ -38,15 +37,26 @@
                 padding-top: 0px;
             }
             ul {
+                display: flex;
                 font-size: 20px; 
                 font-family: Arial; 
                 font-weight: bold; 
-                color: rgb(21, 14, 59);
+                color: black;
                 margin: 0px;
-                padding: 50px 0px 50px 30px;
+                padding: 30px;
+            }
+            li {
+                background: lightblue;
+                width: 200px;
+                border: 5px solid #F4EDED;
+                list-style-position: inside;
+                flex: 1;
             }
             a {
                 font-size: 30px; font-family: Arial; font-weight: bold; color: rgb(21, 14, 59);
+            }
+            a:hover {
+                color: #36827F;
             }
         </style>
     </head>
